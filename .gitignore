@@ -1,4 +1,7 @@
 packages/
-bin/
+HackHousingOutOfTheBox/bin/
+HackHousingOutOfTheBox.ConsoleTest/bin
+HackHousingOutOfTheBox.Services/bin
+HackHousingOutOfTheBox.Web/bin
 obj/
 *.suo
