@@ -39,6 +39,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Esri.ArcGISRuntime, Version=10.2.4.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL" />
+    <Reference Include="Geocoding, Version=3.2.1.0, Culture=neutral, PublicKeyToken=7c714700b88674c7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Geocoding.net.3.2.1\lib\net40\Geocoding.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -210,6 +215,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HackHousingOutOfTheBox.Services\HackHousingOutOfTheBox.Services.csproj">
+      <Project>{48116cc2-2180-4fc8-97c2-7c251359ad64}</Project>
+      <Name>HackHousingOutOfTheBox.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HackHousingOutOfTheBox\HackHousingOutOfTheBox.csproj">
+      <Project>{a5946edc-d99d-40e9-b61b-3091ed7493fa}</Project>
+      <Name>HackHousingOutOfTheBox</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

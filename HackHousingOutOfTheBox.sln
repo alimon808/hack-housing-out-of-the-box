@@ -11,6 +11,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackHousingOutOfTheBox.Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackHousingOutOfTheBox", "HackHousingOutOfTheBox\HackHousingOutOfTheBox.csproj", "{A5946EDC-D99D-40E9-B61B-3091ED7493FA}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HH.Website", "http://localhost:49842", "{70487411-B5E0-4175-9BD1-2F3C54BD5AB7}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{48116cc2-2180-4fc8-97c2-7c251359ad64}|HackHousingOutOfTheBox.Services.dll;{A5946EDC-D99D-40E9-B61B-3091ED7493FA}|HackHousingOutOfTheBox.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49842"
+		Debug.AspNetCompiler.PhysicalPath = "HH.Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49842\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49842"
+		Release.AspNetCompiler.PhysicalPath = "HH.Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49842\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "HH.Website\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +55,10 @@ Global
 		{A5946EDC-D99D-40E9-B61B-3091ED7493FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5946EDC-D99D-40E9-B61B-3091ED7493FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5946EDC-D99D-40E9-B61B-3091ED7493FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70487411-B5E0-4175-9BD1-2F3C54BD5AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70487411-B5E0-4175-9BD1-2F3C54BD5AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70487411-B5E0-4175-9BD1-2F3C54BD5AB7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{70487411-B5E0-4175-9BD1-2F3C54BD5AB7}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
